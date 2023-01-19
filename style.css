@@ -1,0 +1,157 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+nav ul {
+	padding-left: 0px
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	margin-right: 18px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+nav ul li a:hover {
+	color: blue;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 7fr 3fr;
+	grid-column-gap: 2em;
+	padding: 0px;
+}
+
+.main {
+	font-size: 20px;
+}
+
+.main h1 {
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.sidebar {
+	background: blue;
+	color: white;
+	height: 90px;
+	margin-top: 24px;
+	padding: 0px 20px 20px;
+	border-radius: 3px;
+}
+
+.sidebar a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sidebar a:hover {
+	color: red;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 40px;
+}
+
+
+
+p {
+	line-height: 1.4;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+select {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font-size: 16px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: transparent;
+  border: 3px solid blue;
+  border-radius: 4px;
+  color: #000;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+input[type=reset] {
+	border: 3px solid #ccc;
+	background-color: transparent;
+	color: #000;
+}
+
+
+
+#tablica {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tablica td, #tablica th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tablica tr:nth-child(even){background-color: #f2f2f2;}
+
+#tablica tr:hover {background-color: #ddd;}
+
+#tablica th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+}
+
